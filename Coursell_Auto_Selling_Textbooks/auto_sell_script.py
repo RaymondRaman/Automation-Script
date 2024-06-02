@@ -49,8 +49,8 @@ class Carousell:
         # Please fill the following information
         self.category = 'textbooks'
         self.paths = {
-            'save_cookies_path': '/Users/raymondli/Desktop/Automation-Script/Coursell_Auto_Selling_Textbooks/cookie.txt',
-            'excel_path': '/Users/raymondli/Desktop/Automation-Script/Coursell_Auto_Selling_Textbooks/items_to_sell.xlsx'
+            'save_cookies_path': '',
+            'excel_path': ''
         }
 
     def sell(self, title, condition, price, description, frow, file_paths):
@@ -228,7 +228,7 @@ if __name__ == '__main__':
 
         # Generate photo_directory and file_paths for each textbook
         photo_directory = (
-            f'/Users/raymondli/Desktop/Automation-Script/Coursell_Auto_Selling_Textbooks/photo/'
+            f''
             f'{title}'
         )
 
