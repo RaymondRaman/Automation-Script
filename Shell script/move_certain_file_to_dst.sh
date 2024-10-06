@@ -1,13 +1,16 @@
 #!/bin/zsh
+# Author: Raymond Li
+# Description: A script that moves files with a specific pattern in their names 
+# from a source directory to a destination directory.
 
-# Change src and dest to your desired location
-src=""
-dest=""
+# Prompt for file name and URL
+read "src?Enter the source directory (# Can fill in the pattern for copy): "
+read "dst?Enter the target directory (# Can fill in the pattern for copy): "
+read "filename_pattern?Enter the file name pattern (# Can fill in the pattern for copy): "
 
-# Change target_file_name to the desired file name
-target_file_name=""
+# Move files matching the pattern
 for file in "$src"/*; do
-    if [[ "$(basename "$file")" == *"target_file_name"* ]]; then 
-        mv "$file" "$dest"
+    if [[ "$(basename "$file")" == *"$filename_pattern"* ]]; then
+        mv "$file" "$dst"
     fi
 done
