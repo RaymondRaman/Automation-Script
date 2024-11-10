@@ -7,6 +7,8 @@ This is a Python program that automates the process of logging into the Kling AI
 - **AI Video Generation**: Navigates to the video generation page and initiates video creation.
 
 # Demo 
+https://github.com/user-attachments/assets/53dbbd14-0f5c-4389-9af9-c2c628dc9e8d
+
 
 # Usage
 1. Clone the repository or download the script file.
