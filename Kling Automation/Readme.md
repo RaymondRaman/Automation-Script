@@ -13,9 +13,7 @@ https://github.com/user-attachments/assets/53dbbd14-0f5c-4389-9af9-c2c628dc9e8d
 # Usage
 1. Clone the repository or download the script file.
 2. Install Selenium using pip: pip install -r requirements.txt 
-3. Fill in login.txt file with your credentials. Format is as follows: 
-   <email> <password> 
-   ...
+3. Fill in login.txt file with your credentials. 
 4. Run the script. 
 
 
